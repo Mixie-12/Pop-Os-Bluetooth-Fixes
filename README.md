@@ -41,21 +41,18 @@ sudo killall pulseaudio
 pulseaudio --start    
 sudo systemctl restart bluetooth
 ```
-6. Adding the module-bluez5-discover at the end of the pulseaudio /etc/pulse/default.pa config:
+6. Adding the modules at the end of the pulseaudio /etc/pulse/default.pa config:
 ```
 load-module module-bluez5-discover
-```
-7. Restart PulseAudio:
-```
-killall pulseaudio
-```
-8. Add following to /etc/pulse/default.pa
 
-```
 .ifexists module-bluetooth-discover.so
 load-module module-bluetooth-discover
 load-module module-switch-on-connect # this is new!
 .endif
 ```
+7. Restart PulseAudio:
+```
+killall pulseaudio
+
 
 

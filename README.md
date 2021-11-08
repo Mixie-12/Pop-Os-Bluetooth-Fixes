@@ -32,7 +32,7 @@ sudo systemctl start bluetooth-autoconnect.service
 
 Run ```bluetoothctl``` and then enter 
 ```trust XX:XX:XX:XX:XX:XX```. Replace X'es with MAC address of your device.
-You find it with ``bhcitool dev```
+You find it with ```bhcitool dev```
 
 
 

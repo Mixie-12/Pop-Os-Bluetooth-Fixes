@@ -29,7 +29,11 @@ sudo systemctl enable bluetooth-autoconnect.service
 sudo systemctl start bluetooth-autoconnect.service
 ```
 
-## Gaming
+4. Make your headset trust your computer
+
+Run ```bluetoothctl``` and then enter 
+```trust XX:XX:XX:XX:XX:XX```. Replace X'es with MAC address of your device
+
 
 
 

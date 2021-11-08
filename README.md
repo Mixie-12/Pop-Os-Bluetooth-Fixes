@@ -29,4 +29,7 @@ sudo systemctl enable bluetooth-autoconnect.service
 sudo systemctl start bluetooth-autoconnect.service
 ```
 
-## Pop-Os-general-Fixes
+## Gaming
+
+
+

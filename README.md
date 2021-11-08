@@ -34,6 +34,14 @@ Run ```bluetoothctl``` and then enter
 ```trust XX:XX:XX:XX:XX:XX```. Replace X'es with MAC address of your device.
 You find it with ```bhcitool dev```
 
+5. Exstra bluetooth stuff
+```
+sudo apt-get install pulseaudio-module-bluetooth
+sudo killall pulseaudio
+pulseaudio --start    
+sudo systemctl restart bluetooth
+```
+
 
 
 

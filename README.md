@@ -1,7 +1,6 @@
 # Pop-Os-general-Fixes
-Things to do before 
-
-
+Things to do before using the OS.
+For a user friendly distro, it sure needs some tweaking 
 ## Enable bluetooth stuff:
 1. Edit file
 

@@ -49,5 +49,13 @@ load-module module-bluez5-discover
 ```
 killall pulseaudio
 ```
+8. Add following to /etc/pulse/default.pa
+
+```
+.ifexists module-bluetooth-discover.so
+load-module module-bluetooth-discover
+load-module module-switch-on-connect # this is new!
+.endif
+```
 
 

@@ -9,7 +9,7 @@ sudo nano /etc/bluetooth/main.conf
 
 Add at end: AutoEnable=true
 
-2. Enable bluetooth
+2. Enable bluetooth startup
 
 ```
 sudo systemctl enable bluetooth.service
@@ -28,3 +28,5 @@ sudo cp '/home/magnus/bluetooth-autoconnect/bluetooth-autoconnect' /usr/bin/
 sudo systemctl enable bluetooth-autoconnect.service
 sudo systemctl start bluetooth-autoconnect.service
 ```
+
+## Pop-Os-general-Fixes

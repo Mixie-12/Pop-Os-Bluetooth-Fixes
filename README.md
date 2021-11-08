@@ -34,14 +34,20 @@ Run ```bluetoothctl``` and then enter
 ```trust XX:XX:XX:XX:XX:XX```. Replace X'es with MAC address of your device.
 You find it with ```bhcitool dev```
 
-5. Exstra bluetooth stuff
+5. Extra bluetooth protocols
 ```
 sudo apt-get install pulseaudio-module-bluetooth
 sudo killall pulseaudio
 pulseaudio --start    
 sudo systemctl restart bluetooth
 ```
-
-
+6. Adding the module-bluez5-discover at the end of the pulseaudio /etc/pulse/default.pa config:
+```
+load-module module-bluez5-discover
+```
+7. Restart PulseAudio:
+```
+killall pulseaudio
+```
 
 

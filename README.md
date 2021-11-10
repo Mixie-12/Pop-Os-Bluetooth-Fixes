@@ -54,6 +54,12 @@ load-module module-switch-on-connect # this is new!
 7. Restart PulseAudio:
 ```
 killall pulseaudio
+```
+## Gaming:
+
+1. Fix Screen Tearing
+
+Enable Full Composition Pipeline in nvidia controll panel, X server display configuration
 
 
 

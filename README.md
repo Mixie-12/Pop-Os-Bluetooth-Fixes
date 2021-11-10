@@ -58,7 +58,8 @@ killall pulseaudio
 ## Gaming:
 
 1. Fix Screen Tearing
-
+open nvidia controll panel in root:
+```sudo nvidia-settings```
 Enable Full Composition Pipeline in nvidia controll panel, X server display configuration
 
 
